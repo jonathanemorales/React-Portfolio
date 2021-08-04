@@ -13,7 +13,7 @@ const Westchester = ["Provided support for hardware components, desktop operatin
 
 const JobsList = [
     { company: "Hawksearch", title: "Web Application Developer", duration: "06/2018 - Present", details: HawkSearch, image: "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_48ad19308d3b130b9e91e923e01bb153/hawksearch.png" },
-    { company: "FedEx Express", title: "Courier / Material Handler", duration: "10/2015 - 05/2018", details: FedEx, "image": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f2cd558d91f7d60e1fe30750fd621da5/fedex-cross-border.jpg" },
+    // { company: "FedEx Express", title: "Courier / Material Handler", duration: "10/2015 - 05/2018", details: FedEx, "image": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f2cd558d91f7d60e1fe30750fd621da5/fedex-cross-border.jpg" },
     { company: "Westchester Public School District 92.5", title: "Information Tehcnology Intern", duration: "07/2017 - 02/2018", details: Westchester, "image": logo }
 ];
 
@@ -25,7 +25,7 @@ const Experience = (props) => (
             <div className="row">
                 <EqualHeight>
                     {JobsList.map(job => (
-                        <div key={job.company} className="col-lg-4 col-sm-12">
+                        <div key={job.company} className="col-lg-6 col-sm-12">
                             <Card style={{ width: '100%' }}>
                                 <Card.Img className="companyImages" variant="top" src={job.image} />
                                 <Card.Body>
@@ -40,7 +40,6 @@ const Experience = (props) => (
                                             {job.details.map((info, index) => <li key={job.company + index}>{info}</li>)}
                                         </ul>
                                     </EqualHeightElement>
-                                    <Button variant="primary">Website</Button>
                                 </Card.Body>
                             </Card>
 
