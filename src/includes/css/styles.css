@@ -33,6 +33,10 @@ section {
   font-size: 3rem;
 }
 
+#mainDiv .container {
+  padding-top: 10px;
+}
+
 /* button,
 span .bg-primary {
   background-color: black !important;
