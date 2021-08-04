@@ -25,6 +25,14 @@ section {
   height: 100vh;
 }
 
+#SocialLink {
+  color: initial;
+}
+
+#SocialDiv {
+  font-size: 3rem;
+}
+
 /* button,
 span .bg-primary {
   background-color: black !important;

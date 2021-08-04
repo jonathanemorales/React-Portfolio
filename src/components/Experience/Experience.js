@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 import { EqualHeight, EqualHeightElement } from 'react-equal-height';
 import { Badge, Button } from 'react-bootstrap';
-import logo from '../../images/Westchester.png'
+import logo from '../../includes/images/Westchester.png'
 
 const location = "Chicago, IL"
 const Me = { firstName: "Jonathan", lastName: "Morales", location: location, currentPostion: "Web Application Developer" }
